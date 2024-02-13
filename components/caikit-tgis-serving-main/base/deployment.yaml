@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: caikit-tgis-serving-main
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/caikit-tgis-serving/caikit-tgis-serving-main@sha256:6de7f3848b6226503639ff60a31af894dd33fb187242fe311ee518851eb460ca
         imagePullPolicy: Always
         name: container-image
         ports:
