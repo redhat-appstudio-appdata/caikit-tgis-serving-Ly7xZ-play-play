@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: caikit-tgis-serving-main
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/caikit-tgis-serving/caikit-tgis-serving-main@sha256:6de7f3848b6226503639ff60a31af894dd33fb187242fe311ee518851eb460ca
+        name: container-image
+        resources: {}
+status: {}
