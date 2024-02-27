@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: caikit-tgis-serving-28
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/modh/caikit-tgis-serving@sha256:6ad9021a92925759490991446a6a2453bdfeed9e3d32146915c0a7984a2df24c
+        name: container-image
+        resources: {}
+status: {}
