@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/modh/caikit-tgis-serving@sha256:6ad9021a92925759490991446a6a2453bdfeed9e3d32146915c0a7984a2df24c
+      - image: quay.io/modh/caikit-tgis-serving@sha256:d7e1ff6b2cbf24f795c195bf91ad4999e3632c12f2249ba8feef5de22fe96c21
         name: container-image
         resources: {}
 status: {}
